@@ -20,11 +20,10 @@
 ```
 - Программа преобразует скачанный json файл в xml файл
 ```xml
-<div>
 <employee>
-<p>name</p><br/>
-<p>age</p><br/>
-<p>secretIdentity</p><br/>
+<name>name</p><br/>
+<age>age</p><br/>
+<secretIdentity>secretIdentity</secretIdentity><br/>
 <powers>
 <power>powerName</power>
 </powers>
