@@ -1,0 +1,36 @@
+## Инструкция:
+Реализовать программу для скачивания, парсинга и преобразования json-файлов.
+
+- Создать ветку homework-4, переключиться на нее
+- Создайте модуль hw04-json-gradle
+- Реализовать в модуле hw04-json-gradle логику работы программы.
+- Программа скачивает json файл по заданному url
+- Программа парсит скачанный json файл и генерирует html страницу по шаблону
+```html
+<div>
+<div id="employee">
+<p>name</p><br/>
+<p>age</p><br/>
+<p>secretIdentity</p><br/>
+<ul id="powers">
+<li>power</li>
+</ul>
+</div>
+</div>
+```
+- Программа преобразует скачанный json файл в xml файл
+```xml
+<div>
+<employee>
+<p>name</p><br/>
+<p>age</p><br/>
+<p>secretIdentity</p><br/>
+<powers>
+<power>powerName</power>
+</powers>
+</employee>
+```
+
+** Формат сдачи: **
+
+- ссылка на PR в github
