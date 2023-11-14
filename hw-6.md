@@ -67,3 +67,6 @@ SELECT col_a, col_b from Entity
 ```
 
 И вернет `List<Entity>`, в каждом элементе которого заполнены только поля col_a и col_b
+
+## Формат сдачи:
+- ссылка на PR в github
